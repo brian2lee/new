@@ -1,0 +1,8 @@
+prefix=/home/brian/hello_ws/install
+
+Name: cucumber
+Description: Description of cucumber
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

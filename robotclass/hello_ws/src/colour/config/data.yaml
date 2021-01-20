@@ -1,0 +1,11 @@
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_brian__42809: 'http://brian:42809/'}
+rosversion: '1.14.10
+
+  '
+run_id: 8610fcba-5abf-11eb-83a0-d0c5d32595c3
+set_local_color_node: {background_b: 200, background_g: 0, background_r: 125, freq: 2}
+set_turtle_spd_node: {background_b: 200, background_g: 0, background_r: 125, freq: 2}

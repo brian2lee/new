@@ -1,0 +1,41 @@
+<launch>
+
+  <node 
+	pkg = "param_tutorial" 
+	type = "set_turtle_freq" 
+	name = "set_turtle_sped_node" 
+	output = "screen"
+
+  	<rosparam command = "load" file = "$(find param_tutorial)/config/data2.yaml"/>
+  />
+
+  <node 
+	pkg = "turtlesim" 
+	type = "turtlesim_node" 
+	name = "turtlesim"
+  />
+
+  <node 
+	pkg = "param_tutorial" 
+	type = "set_local_color" 
+	name = "set_local_color_node" 
+	output = "screen"
+ 
+          <param 
+		name = "background_r" 
+		type =" int" value="50"
+	  />
+          <param 
+		name = "background_g" 
+		type = "int" value="150"
+	  />
+          <param 
+		name = "background_b" 
+		type = "int" 
+		value = "120"
+	  />
+  />
+
+</launch>
+
+

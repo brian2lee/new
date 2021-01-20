@@ -1,0 +1,9 @@
+<launch>
+	<include 
+		file = "$(find colour)/launch/set_global_param.launch" 
+	/>
+
+	<include 
+		file = "$(find colour)/launch/set_local_param.launch" 
+	/>
+</launch>

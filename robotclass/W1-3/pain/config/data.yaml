@@ -1,0 +1,22 @@
+background_b: 250
+background_g: 0
+background_r: 100
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_brian__34467: 'http://brian:34467/', host_brian__34951: 'http://brian:34951/',
+    host_brian__38499: 'http://brian:38499/', host_brian__38893: 'http://brian:38893/',
+    host_brian__38999: 'http://brian:38999/', host_brian__40651: 'http://brian:40651/',
+    host_brian__40949: 'http://brian:40949/', host_brian__41513: 'http://brian:41513/',
+    host_brian__42809: 'http://brian:42809/', host_brian__46197: 'http://brian:46197/',
+    host_brian__46331: 'http://brian:46331/', host_brian__46367: 'http://brian:46367/',
+    host_titan__33729: 'http://titan:33729/'}
+rosversion: '1.12.14
+
+  '
+run_id: e4974020-2536-11e9-9734-38d5471a4b7e
+self_param1: 250
+set_local_color_node: {background_b: 0, background_g: 2, background_r: 0, freq: 2}
+set_turtle_spd_node: {background_b: 0, background_g: 2, background_r: 0, freq: 2}
+turtlesim: {background_b: 250, background_g: 0, background_r: 100}

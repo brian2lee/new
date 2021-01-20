@@ -1,0 +1,38 @@
+<launch>
+
+  <rosparam command="load" file="$(find param_tutorial)/config/data.yaml"/>
+  <node 
+	pkg = "turtlesim" 
+	type = "turtlesim_node" 
+	name = "turtlesim"
+
+	  <param 
+		name="background_r" 
+		value="50"
+	  />
+    	  <param 
+		name="background_g" 
+		value="150"
+	  />
+    	  <param 
+		name="background_b" 
+		value="120"
+	  />
+  />
+
+  <node 
+	pkg = "turtlesim" 
+	type = "turtlesim_node" 
+	name = "turtlesim"
+  />
+
+  <node 
+	pkg = "param_tutorial" 
+	type = "set_global_color" 
+	name = "set_global_color_node" 
+	output="screen"
+  />
+
+</launch>
+
+

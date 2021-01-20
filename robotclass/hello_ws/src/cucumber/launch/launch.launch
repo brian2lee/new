@@ -1,0 +1,14 @@
+<launch>
+    <node
+        pkg = "turtlesim"
+        type = "turtlesim_node"
+        name = "turtlesim"
+    />
+
+    <node
+        pkg = "cucumber"
+        type = "service"
+        name = "msgssd"
+        output="screen"
+    />
+</launch>

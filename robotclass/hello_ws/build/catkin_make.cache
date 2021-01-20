@@ -1,0 +1,2 @@
+colour:cucumber:hello:pain
+-DCATKIN_DEVEL_PREFIX=/home/brian/hello_ws/devel -DCMAKE_INSTALL_PREFIX=/home/brian/hello_ws/install -G Unix Makefiles

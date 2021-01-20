@@ -1,0 +1,42 @@
+<launch>
+	<rosparam command = "load" file = "$(find pain)/config/data.yaml"/>
+	<param 	
+		name="background_r" 
+		type="int"
+		value="100"
+	/>
+    	<param 
+		name="background_g" 
+		type="int"
+		value="0"
+	/>
+    	<param 
+		name="background_b" 
+		type="int"
+		value="250"
+	/>
+	<node 
+		pkg = "turtlesim" 
+		type = "turtlesim_node" 
+		name = "turtlesim"
+	/>
+
+	<node 
+		pkg = "pain" 
+		type = "rand_run" 
+		name = "random_run_node" 
+		respawn = "true"
+    	/>
+
+	<node 
+		pkg = "pain" 
+		type = "rwc" 
+		name = "rw_param1_node" 
+		respawn = "true"
+    	/>
+
+    
+	
+</launch>
+
+

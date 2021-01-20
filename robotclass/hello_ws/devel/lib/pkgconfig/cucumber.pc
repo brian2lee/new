@@ -1,0 +1,8 @@
+prefix=/home/brian/hello_ws/devel
+
+Name: cucumber
+Description: Description of cucumber
+Version: 0.0.0
+Cflags: -I/home/brian/hello_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

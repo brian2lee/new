@@ -1,0 +1,8 @@
+prefix=/home/brian/hello_ws/devel
+
+Name: colour
+Description: Description of colour
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
